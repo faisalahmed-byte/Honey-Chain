@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-amber-50/30 text-slate-800 antialiased font-sans min-h-screen selection:bg-amber-200 selection:text-amber-900;
+  }
+}
+
+/* Custom animation for blockchain hashes */
+@keyframes pulse-gold {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-gold {
+  animation: pulse-gold 2s infinite ease-in-out;
+}
+
+/* Leaflet Map popup custom styling */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}

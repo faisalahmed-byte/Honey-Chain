@@ -1,0 +1,21 @@
+{
+  "name": "honey-chain",
+  "version": "1.0.0",
+  "description": "Honey Chain - Blockchain-Powered Honey Traceability & Smart Beekeeping (SIH 2026 Problem Statement SIH26021)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "honey-chain",
+    "sih2026",
+    "blockchain",
+    "traceability",
+    "smart-beekeeping"
+  ],
+  "author": "Antigravity SIH Team",
+  "license": "MIT"
+}
