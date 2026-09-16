@@ -7,8 +7,12 @@
     "start": "node server/server.js",
     "server": "node server/server.js",
     "client": "cd client && npm run dev",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "keywords": [
     "honey-chain",
     "sih2026",

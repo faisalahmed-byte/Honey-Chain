@@ -12,6 +12,10 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.44.0",
     "qrcode.react": "^4.2.0",
@@ -19,15 +23,11 @@
     "react-dom": "^19.2.8",
     "react-leaflet": "^5.0.0",
     "recharts": "^3.10.1",
-    "tailwindcss": "^4.3.3"
-  },
-  "devDependencies": {
-    "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "oxlint": "^1.81.0"
   }
 }
